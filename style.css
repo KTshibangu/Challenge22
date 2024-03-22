@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 200px;
+}
+
+
+.heading button {
+    padding: 10px 30px;
+    border: 2px solid hsl(322, 100%, 66%);
+    outline: 0;
+    background: white;
+    border-radius: 30px;
+    color: hsl(322, 100%, 66%);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.heading button:hover {
+    border: 2px solid hsl(322, 100%, 66%, 0.5);
+    color: hsl(322, 100%, 66%, 0.5);
+}
+
+
+.content-1 {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.content-1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.content-1 p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.start {
+    margin: auto;
+    padding: 24px 60px;
+    width: 30%;
+    outline: 0;
+    border: 0;
+    background: hsl(322, 100%, 66%);
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.start:hover {
+    background: hsl(322, 100%, 66%, 0.6);    
+}
+
+
+.mockups {
+    margin: 80px auto 120px;
+    width: 1000px;
+}
+
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 0 60px;
+    gap: 320px;
+    margin-bottom: 140px;
+}
+
+
+.communities, .messages {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.communities img, .messages img {
+    width: 50px;
+}
+
+
+.communities h1, .messages h1 {
+    font-size: 100px;
+}
+
+
+.communities p, .messages p {
+    font-size: 24px;
+    color: hsl(321, 100%, 78%);
+    text-align: center;
+}
+
+
+.curve-1 {
+    width: 100%;
+    margin-bottom: -6px;
+}
+
+
+.content-3, .content-5 {
+    padding: 60px 120px;
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    align-items: center;
+}
+
+
+.text-1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+
+.text-1 p {
+    font-size: 16px;
+    width: 80%;
+}
+
+
+.illustration {
+    width: 560px;
+}
+
+
+.content-4 {
+    margin: 140px 0;
+    padding: 60px 120px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.content-6 {
+    margin: 120px 0;
+    padding: 60px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;    
+}
+
+
+.content-6 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+footer {
+    padding: 120px;
+    background: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+#logo {
+    filter: invert(92%) sepia(92%) saturate(35%) hue-rotate(254deg) brightness(107%) contrast(100%);
+    width: 240px;
+}
+
+
+.left p {
+    width: 60%;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.left span {
+    font-weight: 200;
+}
+
+
+.socials {
+    margin-top: 60px;
+    display: flex;
+    gap: 26px;
+}
+
+
+.socials i {
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.socials i:hover {
+    color: lightblue;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+.right h2 {
+    font-size: 28px;
+}
+
+
+.right p {
+    width: 60%;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.input input {
+    outline: 0;
+    padding: 18px 160px 18px 20px;
+    border-radius: 8px;
+}
+
+
+.input button {
+    padding: 18px 60px;
+    border-radius: 8px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.input button:hover {
+    background-color: hsl(322, 100%, 66%, 0.5);
+}
+
+
+@media screen and (max-width: 800px) {
+    .heading {
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+
+
+    .heading img {
+        width: 100px;
+    }
+
+
+    .heading button {
+        padding: 5px 18px;
+        font-size: 10px;
+    }
+
+
+    .content-1 {
+        padding: 20px;
+    }
+
+
+    .content-1 h1 {
+        font-size: 26px;
+    }
+
+
+    .content-1 p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+
+    .start {
+        width: 60%;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+
+    .mockups {
+        width: 300px;
+    }
+
+
+    .content-2 {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+
+    .communities img, .messages img {
+        width: 30px;
+    }
+
+
+    .communities h1, .messages h1 {
+        font-size: 60px;
+    }
+
+
+    .communities p, .messages p {
+        font-size: 16px;
+    }
+
+
+    .content-3 {
+        flex-direction: column-reverse;
+        gap: 80px;
+        padding: 80px 20px;
+    }
+
+
+    .illustration {
+        width: 260px;
+    }
+
+
+    .text-1 h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .text-1 p {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .content-4 {
+        padding: 80px 20px 0;
+        margin-top: -2px;
+        flex-direction: column;
+    }
+
+
+    .content-5 {
+        padding: 80px 20px;
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+
+
+    .content-6 {
+        padding: 20px;
+    }
+
+
+    .content-6 h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    footer {
+        padding: 120px 20px;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .input input {
+        width: 100%;
+    }
+
+
+    .input button {
+        margin: -10PX 0 100px 150px; 
+    }
+
+
+    #logo {
+        width: 200px;
+    }
+
+
+    .left p {
+        width: 100%;
+    }
+}
+
+{}
